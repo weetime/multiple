@@ -1,0 +1,25 @@
+{
+  "name": "@multiple/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./utils": "./utils/index.js",
+    "./components": "./components/index.js",
+    "./components/Layout": "./components/Layout.vue",
+    "./components/Header": "./components/Header.vue",
+    "./components/Sidebar": "./components/Sidebar.vue"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js,.vue --fix"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0"
+  }
+}
+

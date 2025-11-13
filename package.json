@@ -1,0 +1,23 @@
+{
+  "name": "multiple-projects",
+  "version": "1.0.0",
+  "description": "Monorepo for multiple Vue projects using Vite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter \"./packages/*\" dev",
+    "build": "pnpm --filter \"./packages/*\" build",
+    "preview": "pnpm --filter \"./packages/*\" preview",
+    "lint": "pnpm --filter \"./packages/*\" lint",
+    "format": "prettier --write \"**/*.{js,ts,json,css,scss,md,vue}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
+
