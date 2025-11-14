@@ -4,8 +4,10 @@
 
 ## 📋 前置要求
 
-- **Node.js** >= 18.0.0
-- **pnpm** >= 8.0.0
+- **Node.js** >= 23.10.0
+- **pnpm** >= 10.5.2
+
+> ⚠️ **注意**: Node.js v23 是奇数版本（Current），支持周期较短。如需长期支持，建议使用 Node.js v24.x（LTS）。
 
 如果还没有安装 pnpm，可以通过以下方式安装：
 
@@ -150,7 +152,8 @@ npm install -g pnpm
 
 ## 📚 更多信息
 
-详细文档请查看 [allaboutproject.md](./allaboutproject.md)
+- **开发规范**: 请查看 [DEVELOPMENT_GUIDE.md](./DEVELOPMENT_GUIDE.md) - **所有开发者（包括 AI）必须阅读**
+- **项目文档**: 请查看 [allaboutproject.md](./allaboutproject.md)
 
 ## 🛠️ 技术栈
 

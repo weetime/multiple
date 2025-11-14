@@ -9,15 +9,18 @@
     "build": "pnpm --filter \"./packages/*\" build",
     "preview": "pnpm --filter \"./packages/*\" preview",
     "lint": "pnpm --filter \"./packages/*\" lint",
-    "format": "prettier --write \"**/*.{js,ts,json,css,scss,md,vue}\""
+    "lint:fix": "pnpm --filter \"./packages/*\" lint",
+    "format": "prettier --write \"**/*.{js,ts,json,css,scss,md,vue}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,json,css,scss,md,vue}\"",
+    "clean": "pnpm --filter \"./packages/*\" exec rm -rf dist",
+    "type-check": "pnpm --filter \"./packages/*\" exec vue-tsc --noEmit || true"
   },
   "devDependencies": {
     "prettier": "^3.2.5"
   },
   "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.0.0"
+    "node": ">=23.10.0",
+    "pnpm": ">=10.5.2"
   },
-  "packageManager": "pnpm@8.15.0"
+  "packageManager": "pnpm@10.5.2"
 }
-

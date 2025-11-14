@@ -1,0 +1,22 @@
+# pnpm configuration
+# https://pnpm.io/npmrc
+
+# Auto install peers
+auto-install-peers=true
+
+# Strict peer dependencies
+strict-peer-dependencies=false
+
+# Shamefully hoist (for better compatibility)
+shamefully-hoist=false
+
+# Public hoist pattern
+public-hoist-pattern[]=*eslint*
+public-hoist-pattern[]=*prettier*
+
+# Node linker
+node-linker=isolated
+
+# Store location
+# store-dir=~/.pnpm-store
+

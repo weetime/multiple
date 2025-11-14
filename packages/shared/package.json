@@ -7,6 +7,10 @@
     ".": "./index.js",
     "./utils": "./utils/index.js",
     "./components": "./components/index.js",
+    "./composables": "./composables/index.js",
+    "./composables/utils": "./composables/utils/index.js",
+    "./composables/state": "./composables/state/index.js",
+    "./composables/ui": "./composables/ui/index.js",
     "./components/Layout": "./components/Layout/index.vue",
     "./components/Header": "./components/Layout/Header.vue",
     "./components/Sidebar": "./components/Layout/Sidebar.vue"

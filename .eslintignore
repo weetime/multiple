@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Build outputs
+*.tsbuildinfo
+*.log
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Config files
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
